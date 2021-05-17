@@ -16,6 +16,7 @@ function App(props) {
       {props.curItems.map((obj, index) =>                    
         <ItemButton key={index} index={index} top={obj.top} left={obj.left} padding={obj.padding} isFound={obj.found} numLeft={props.numLeft}/>
       )}
+      <p className="counter">Items Left: {props.numLeft}</p>
     </div>
   );
 }

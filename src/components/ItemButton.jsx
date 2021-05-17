@@ -13,10 +13,7 @@ function ItemButton(props) {
         var itemsKey = event.target.id;
         ReactDOM.render(<Info keyVal={itemsKey} numLeft={props.numLeft}/>, document.getElementById("root"));
     }
-
     
-
-
     return (<button className="btn" onClick={handleClick} id={props.index} style={{top: props.top, left:props.left, padding:props.padding, border:(props.isFound ? ".2em solid rgb(216, 21, 21)":"none")}}/>);
 }
 

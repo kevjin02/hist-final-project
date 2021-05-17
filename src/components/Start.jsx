@@ -9,7 +9,7 @@ function handleClick(){
 }
 
 function Start(){
-    return (<div class="start">
+    return (<div className="start">
     <h1>HIST 1500 Final Project</h1>
     <p>
       Dr. Molvig's scientific friends are loose on Commons. Round them up before the freshmen wake up and learn about them in the process!
@@ -17,7 +17,7 @@ function Start(){
     <h3>
       Can you find all eleven?
     </h3>
-    <button class="btn" onClick={handleClick}>Begin!</button>
+    <button className="btn" onClick={handleClick}>Begin!</button>
   </div>);
 }
 

@@ -1,3 +1,7 @@
+html, body, div{
+  margin:0;
+}
+
 body {
     background-color: #34656d;
     text-align: center;
@@ -24,50 +28,137 @@ body {
     border-radius: 5%;
   }
 
-  .start {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-  
-  }
-  
-  .start h1{
+.start {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.start h1{
+  color: #fffbdf;
+  font-family: 'Balsamiq Sans',cursive;
+  font-size: 7em;
+  margin: 0;
+}
+
+.start h2 {
+  font-size: 4em;
+  color: #fffbdf;
+  font-family: 'Balsamiq Sans',cursive;
+}
+
+.start p{
+  color:#191919;
+  font-size: 1.3em;
+  font-family:sans-serif;
+  font-weight:200;
+  line-height: 1.5em;
+}
+
+.start h3{
+  font-size: 2em;
+  color: #fffbdf;
+}
+
+.start .btn{
+
+  display:inline-block;
+  /*padding:0.35em 1.2em;*/
+  padding:.3em 1em;
+  border:0.15em solid #fffbdf;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  background: transparent;
+  font-size:2em;
+  font-weight:300;
+  color:#fffbdf;
+  text-align:center;
+  transition: all 0.2s;
+}
+.start .btn:hover{
+  color: #34656d;
+  background-color:#fffbdf;
+}
+
+.info {
+  height:100%;
+  text-align:left;
+}
+
+br {
+  display:block;
+  content: " ";
+  margin :2% 0;
+}
+
+  .info h1{
     color: #fffbdf;
     font-family: 'Balsamiq Sans',cursive;
     font-size: 7em;
     margin: 0;
   }
   
-  .start p{
+  .info p{
     color:#191919;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-family:sans-serif;
-    font-weight:200;
-    line-height: 1.5em;
+    font-weight:300;
+    line-height: 1.7em;
   }
   
-  .start h3{
-    font-size: 2em;
-    color: #fffbdf;
-  }
-  
-  .start .btn{
-  
-    display:inline-block;
-    /*padding:0.35em 1.2em;*/
-    padding:.3em 1em;
-    border:0.15em solid #fffbdf;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
+  .info .btn{
+    position:fixed;
+    top:1.5%;
+    left:1%;
+    font-family: 'Balsamiq Sans',cursive;
+    padding:.3em .3em;
+    border:none;
     background: transparent;
     font-size:2em;
     font-weight:300;
-    color:#fffbdf;
-    text-align:center;
+    color:#34656d;
     transition: all 0.2s;
   }
-  .start .btn:hover{
-    color: #34656d;
-    background-color:#fffbdf;
+  .info .btn:hover{
+    color: #1B3539;
+  }
+
+  span {
+    font-style: italic;
+  }
+  
+  .info .image {
+    position:fixed;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    right:67%;
+    background-color: #fffbdf;
+  
+  }
+  
+  .info img {
+    width:90%;
+    border-radius:10%;
+  }
+  
+  .info .details{
+    position:fixed;
+    height:100%;
+    left:33%;
+    padding:3rem;
+  }
+
+  .counter {
+    position: fixed;
+    right:0;
+    top: 0;
+    padding: 1% 2%;
+    font-family: 'Balsamiq Sans',cursive;
+    font-size: 1.5em;
+    color: rgb(216, 21, 21);
   }
