@@ -1,0 +1,164 @@
+html, body, div{
+  margin:0;
+}
+
+body {
+    background-color: #34656d;
+    text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/* App */
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.container img {
+    width:100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    background-color: transparent;
+    border: .2rem solid rgb(216, 21, 21);
+    border-radius: 5%;
+}
+
+.counter {
+  position: fixed;
+  right:0;
+  top: 0;
+  padding: 1% 2%;
+  font-family: 'Balsamiq Sans',cursive;
+  font-size: 1.5em;
+  color: rgb(216, 21, 21);
+}
+
+/* Start */
+
+.start {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.start h1{
+  color: #fffbdf;
+  font-family: 'Balsamiq Sans',cursive;
+  font-size: 7em;
+  margin: 0;
+}
+
+.start h2 {
+  font-size: 4em;
+  color: #fffbdf;
+  font-family: 'Balsamiq Sans',cursive;
+}
+
+.start p{
+  color:#191919;
+  font-size: 1.3em;
+  font-family:sans-serif;
+  font-weight:200;
+  line-height: 1.5em;
+}
+
+.start h3{
+  font-size: 2em;
+  color: #fffbdf;
+}
+
+.start .btn{
+  display:inline-block;
+  padding:.3em 1em;
+  border:0.15em solid #fffbdf;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  background: transparent;
+  font-size:2em;
+  font-weight:300;
+  color:#fffbdf;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+.start .btn:hover{
+  color: #34656d;
+  background-color:#fffbdf;
+}
+
+/* Info */
+
+.info {
+  font-family: 'Balsamiq Sans',cursive;
+  text-align:left;
+}
+
+.info .image {
+  position:fixed;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left:0;
+  right:67%;
+  background-color: #fffbdf;
+
+}
+
+.info img {
+  width:90%;
+  border-radius:10%;
+}
+
+.info .details{
+  left:50%;
+  padding: 3rem;
+  padding-left: 35%;
+}
+
+br {
+  display:block;
+  content: " ";
+  margin :2% 0;
+}
+
+.info h1{
+  color: #fffbdf;
+  font-size: 7em;
+  margin: 0;
+}
+
+.info p{
+  color:#191919;
+  font-size: 1.5em;
+  font-family:sans-serif;
+  font-weight:300;
+  line-height: 1.7em;
+}
+
+.info .btn{
+  position:fixed;
+  top:1.5%;
+  left:1%;
+  padding:.3em;
+  border:none;
+  background: transparent;
+  font-family: 'Balsamiq Sans',cursive;
+  font-size:2em;
+  font-weight:300;
+  color:#34656d;
+  transition: all 0.2s;
+}
+
+.info .btn:hover{
+  color: #1B3539;
+}
