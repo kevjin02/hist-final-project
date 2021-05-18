@@ -4,8 +4,10 @@ import ItemButton from "./ItemButton"
 import ReactDOM from "react-dom";
 import Finish from "./Finish";
 
+
 function App(props) {
   document.body.style = 'background: white;';
+  
   if(props.numLeft === 0){
     ReactDOM.render(<Finish/>, document.getElementById("root"));
   }
